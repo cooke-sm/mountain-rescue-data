@@ -1,0 +1,28 @@
+{
+    "id": "22E67354",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1678831896303.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "id": "7bd276d4c190459480113ad28d207aa3",
+        "name": "<html>",
+        "title": "edale",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 8080056003806104108,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1678831896303,
+    "read_only": false,
+    "read_only_alternatives": []
+}
