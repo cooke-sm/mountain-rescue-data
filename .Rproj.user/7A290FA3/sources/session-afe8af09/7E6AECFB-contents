@@ -1,0 +1,12 @@
+library("polite")
+library(rvest)
+
+
+edale_bow <- bow("https://edalemrt.co.uk/")
+
+
+url <- "https://edalemrt.co.uk/incidents/"
+
+edale_scrape <- scrape(edale_bow,list(param1 = "incidents"))
+
+edale_scrape %>% rvest::html_nodes(".incidents__item pb-3 lazyloaded")

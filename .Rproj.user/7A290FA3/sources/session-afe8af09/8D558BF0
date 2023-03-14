@@ -1,0 +1,28 @@
+{
+    "id": "8D558BF0",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1678750925478.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "id": "f8755a7d97d94aaca3ebeb86edeb0c70",
+        "name": "<html>",
+        "title": "edale_scrape",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 2161791787432,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1678750925478,
+    "read_only": false,
+    "read_only_alternatives": []
+}
