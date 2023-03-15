@@ -24,7 +24,16 @@ data <- tibble(incident = map(output, "incident"),
             n_team = map(output, "n_team"),
             loc = map(output, "loc"))
 
-data %>% 
-  mutate(incident_n = parse_number(str_extract(incident, "(i|I)ncident \\d+")),
-         n_team = parse_number(str_extract(n_team,"\\d+"))) %>% view()
+edale_data <- data %>% 
+  mutate(incident = map_chr(incident,1),
+         loc = map_chr(loc,1),
+         incident_n = parse_number(str_extract(incident, "(i|I)ncident \\d+")),
+         n_team = parse_number(str_extract(n_team,"\\d+")),
+         date = parse_date(str_extract(date, "(?<=:).*"), "%+ %d %b %Y"))
 
+
+edale_data %>% count(loc) %>% 
+  arrange(desc(n))
+
+edale_data %>% filter(loc == "Fairholmes")
+        
