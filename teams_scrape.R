@@ -1,23 +1,17 @@
 library(rvest)
 library(tidyverse)
+library(xml2)
 keswick <- "https://keswickmrt.org.uk/rescue-sitemap.xml"
-base <- "https://keswickmrt.org.uk/rescue/"
 
 
-data <- read_xml(keswick)
+x <- download_xml(keswick) %>% 
+  read_xml() %>% 
+  xml_children()
 
-ata %>% html_elements(".table")
+urls <- tibble(urls = map(x, ~xml_text(xml_child(.,1))))
+  
 
-
-
-
-url <- "https://keswickmrt.org.uk/rescue/latrigg-121/"
-
-iter <- parse_number(str_extract(url, "\\d+"))
-name <- str_extract(url, "(?<=rescue/).*(?=-)")
-
-
-
+######################
 
 #this takes the url of the session page and parses out the important information
 #you could scrape more information during this step if required - location data, photos, ect
@@ -32,11 +26,17 @@ kes_parse <- function(url){
   
 }
 
-kes_call <- function(loc, iter, base = base){
+kes_call <- function(url){
   
+  iter <- parse_number(str_extract(url, "\\d+"))
+  name <- str_extract(url, "(?<=rescue/).*(?=-)")
+  
+  c(kes_parse(url), iter, name)
   
 }
 
+#scrape scrape scrape
+df <- sapply(urls$urls, kes_call)
 
-robotstxt::get_robotstxt("https://keswickmrt.org.uk/")
 
+write_rds(tibble(df),file = "interim.rds")
