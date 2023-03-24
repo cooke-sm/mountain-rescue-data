@@ -33,8 +33,7 @@ pat_parse <- function(url){
   list(title = title, date = date, loc = loc, gridref = gridref, incident = incident)
 }
 
-test <- head(urls, 5)
-
+#scrape scrape scrape! Takes a while
 df <- map(urls$urls,pat_parse)
 
 pat_data <- tibble(title = map_chr(df, "title"),
@@ -47,3 +46,5 @@ pat_data <- tibble(title = map_chr(df, "title"),
 
 pat_data %>% 
   write_csv("patterdale_data.csv")
+
+  
