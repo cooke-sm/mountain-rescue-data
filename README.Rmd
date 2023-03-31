@@ -1,6 +1,6 @@
 ---
 title: "MRT-Data"
-output: html_document
+output: github_document
 ---
 
 # Mountain Rescue Incident Data
