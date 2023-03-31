@@ -1,6 +1,6 @@
 ---
-title: "R Notebook"
-output: html_notebook
+title: "MRT-Data"
+output: html_document
 ---
 
 # Mountain Rescue Incident Data
