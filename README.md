@@ -25,8 +25,9 @@ and you’d be right. Some of the time.
 
 ## Teams scraped so far
 
-- Edale
-- Keswick
-- Ogwen
-- Patterdale
-- Kendal
+- [Edale](https://edalemrt.co.uk/)
+- [Keswick](https://keswickmrt.org.uk/)
+- [Ogwen](https://ogwen-rescue.org.uk/)
+- [Patterdale](https://www.mountainrescue.org.uk/)
+- [Kendal](http://www.kendalmountainrescue.org.uk/)
+- [Wasdale](https://www.wmrt.org.uk/)
