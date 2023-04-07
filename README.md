@@ -31,3 +31,4 @@ and you’d be right. Some of the time.
 - [Patterdale](https://www.mountainrescue.org.uk/)
 - [Kendal](http://www.kendalmountainrescue.org.uk/)
 - [Wasdale](https://www.wmrt.org.uk/)
+- [Langdale and Ambleside](https://www.lamrt.org.uk/)
