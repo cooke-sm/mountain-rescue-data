@@ -32,3 +32,4 @@ and you’d be right. Some of the time.
 - [Kendal](http://www.kendalmountainrescue.org.uk/)
 - [Wasdale](https://www.wmrt.org.uk/)
 - [Langdale and Ambleside](https://www.lamrt.org.uk/)
+- [Coniston](https://conistonmrt.org.uk/) (sort of)

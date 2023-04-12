@@ -20,3 +20,4 @@ There are 49 mountain rescue teams in the UK, each is it's own charity. You woul
 - [Kendal](http://www.kendalmountainrescue.org.uk/)
 - [Wasdale](https://www.wmrt.org.uk/)
 - [Langdale and Ambleside](https://www.lamrt.org.uk/)
+- [Coniston](https://conistonmrt.org.uk/) (sort of)
